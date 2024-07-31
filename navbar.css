@@ -364,6 +364,9 @@ a{
       flex-direction: column;
       width: 100%;
     }
+    .mobile-only a{
+      width: 35%;
+    }
     .heading{
       padding-bottom: 20px;
       border-bottom: 1px solid rgb(76, 76, 76);
@@ -483,19 +486,19 @@ a{
       background:white;
       color:black;
       font-size: xx-large;
-      font-weight: 500;
+      font-weight: lighter;
       position: absolute;
-      top: 0;
-      right: 0;
+      top: -9px;
+      right: 10px;
     }
     .minus {
-      font-size: x-large;
+      
       font-weight: 500;
       font-size: xx-large;
       color: #126bfb;
       position: absolute;
-      top: 0px;
-      right: 5px;
+      top: -10px;
+      right: 13px;
     }
     
     .mobileHeader {
